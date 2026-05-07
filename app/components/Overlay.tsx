@@ -71,7 +71,7 @@ export default function Overlay({ bay, bayKey }: Props) {
           {formatCoord(bay.lat, true)} {formatCoord(bay.lng, false)}
         </div>
         <div className="mt-3 whitespace-nowrap text-[11px] italic opacity-45">
-          — also Tide Pixels · Sky Traffic · Subway Pulse
+          — also Tide Pixels · Sky Traffic · Subway Pulse · Quake Globe
         </div>
       </div>
 
