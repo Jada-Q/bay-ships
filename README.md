@@ -3,10 +3,12 @@
 A real-time(-ish) ambient canvas of vessels moving through the world's busiest bays. Each dot is a ship, colored by type; the trail behind it is its path over the last 60 seconds.
 
 <p align="center">
-  <img src="docs/preview/bay-ships.png" width="100%" alt="Tokyo Bay — 41 ships, mostly cargo, drifting up the Uraga Channel toward Tokyo and Yokohama" />
+  <img src="docs/preview/tokyo-bay.png" width="32%" alt="Tokyo Bay — Uraga Channel" />
+  <img src="docs/preview/singapore.png" width="32%" alt="Singapore Strait" />
+  <img src="docs/preview/ny-harbor.png" width="32%" alt="New York Harbor — Verrazzano Narrows" />
 </p>
 
-<p align="center"><em>Tokyo Bay 08:05 JST — 41 ships, cargo (white) outbound, tankers (blue) inbound, fishing fleet (green) at the south entry.</em></p>
+<p align="center"><em>Three of the world's busiest harbors at the same instant — Tokyo Bay (Uraga Channel) · Singapore Strait · New York Harbor (Verrazzano Narrows). White = cargo, yellow = passenger, green = fishing, blue = tanker, grey = other.</em></p>
 
 **Live**: [bay-ships-2026-05-07.vercel.app](https://bay-ships-2026-05-07.vercel.app)
 
