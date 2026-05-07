@@ -102,6 +102,14 @@ For multi-display: assign different bays per monitor (Tokyo on one, Singapore on
 
 ---
 
+## Elsewhere
+
+- [Tide Pixels](https://github.com/Jada-Q/tide-pixels) — real-time ocean canvas (sky color, sun/moon, tide, lunar phase)
+- [Sky Traffic](https://github.com/Jada-Q/sky-traffic) — live aircraft trails over your city's airspace
+- [Subway Pulse](https://github.com/Jada-Q/subway-pulse) — Tokyo metro lines as Beck-style abstract diagram (procedural demo)
+
+---
+
 ## License
 
 MIT — do whatever you want, but if you ship a paid product literally cloned from this, at least drop a thank-you somewhere.

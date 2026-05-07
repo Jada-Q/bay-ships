@@ -70,6 +70,9 @@ export default function Overlay({ bay, bayKey }: Props) {
         <div className="mt-1 text-xs opacity-60">
           {formatCoord(bay.lat, true)} {formatCoord(bay.lng, false)}
         </div>
+        <div className="mt-3 whitespace-nowrap text-[11px] italic opacity-45">
+          — also Tide Pixels · Sky Traffic · Subway Pulse
+        </div>
       </div>
 
       <div className="absolute right-6 top-6 text-right font-serif md:right-10 md:top-10">
