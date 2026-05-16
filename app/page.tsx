@@ -1,6 +1,7 @@
 import BayCanvas from "./components/BayCanvas";
 import Overlay from "./components/Overlay";
 import BaySwitcher from "./components/BaySwitcher";
+import MamoruSprite from "./components/MamoruSprite";
 import { resolveBay, type UrlParams } from "@/lib/bays";
 
 export default async function Home({
@@ -19,6 +20,7 @@ export default async function Home({
       <BayCanvas bay={bay} bayKey={key} />
       <Overlay bay={bay} bayKey={key} />
       <BaySwitcher active={key} />
+      <MamoruSprite />
     </main>
   );
 }
