@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 const BAYS: Array<{ key: string; label: string }> = [
   { key: "tokyo-bay", label: "Tokyo Bay" },
   { key: "osaka-bay", label: "Osaka Bay" },
@@ -8,6 +10,12 @@ const BAYS: Array<{ key: string; label: string }> = [
 ];
 
 export default function BaySwitcher({ active }: { active: string }) {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    setShow(new URLSearchParams(window.location.search).get("embed") === "app");
+  }, []);
+  if (!show) return null;
+
   return (
     <div
       className="pointer-events-none fixed z-20 select-none
